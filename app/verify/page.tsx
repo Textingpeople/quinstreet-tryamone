@@ -23,21 +23,31 @@ function VerifyPageContent() {
   const handleConfirm = () => {
     setIsRedirecting(true);
 
-    const params = new URLSearchParams();
-    searchParams.forEach((value, key) => {
-      if (key !== 'phone') {
-        params.append(key, value);
-      }
-    });
+    // Log the raw search string so we can debug exactly what the browser sees
+    const rawSearch = window.location.search.substring(1);
+    console.log('[DEBUG] rawSearch:', rawSearch.substring(0, 200));
 
-    const destination = searchParams.get('destination');
-    if (destination) {
-      const redirectUrl = `${destination}?${params.toString()}`;
-      window.location.href = redirectUrl;
-    } else {
+    const destKeyIndex = rawSearch.indexOf('destination=');
+    if (destKeyIndex === -1) {
       setError('Invalid verification link. Destination is missing.');
       setIsRedirecting(false);
+      return;
     }
+
+    const rawRedirectUrl = rawSearch.substring(destKeyIndex + 'destination='.length);
+    console.log('[DEBUG] rawRedirectUrl (first 200):', rawRedirectUrl.substring(0, 200));
+
+    if (!rawRedirectUrl) {
+      setError('Invalid verification link. Destination is missing.');
+      setIsRedirecting(false);
+      return;
+    }
+
+    // Use the raw URL directly - do NOT decode it.
+    // window.location.href handles encoded URLs correctly.
+    // decodeURIComponent was causing double-decoding issues.
+    console.log('[DEBUG] Setting window.location.href to rawRedirectUrl');
+    window.location.href = rawRedirectUrl;
   };
 
   return (
