@@ -5,6 +5,31 @@ import { useState, useEffect, Suspense } from 'react';
 import Image from 'next/image';
 import { CheckCircle } from 'lucide-react';
 
+// Builds the redirect target from the raw text after "destination=".
+// Only touches literal http(s) URLs; encoded destinations are left exactly as before.
+function buildRedirectUrl(rawRedirectUrl: string): string {
+  let url = rawRedirectUrl;
+  if (!/^https?:\/\//i.test(url)) return url;
+
+  // If the destination has no "?" but extra params follow it, the first "&" must become "?"
+  if (url.indexOf('?') === -1 && url.indexOf('&') !== -1) {
+    const amp = url.indexOf('&');
+    url = url.slice(0, amp) + '?' + url.slice(amp + 1);
+  }
+
+  // Never pass the phone number on to the destination
+  const q = url.indexOf('?');
+  if (q !== -1) {
+    const base = url.slice(0, q);
+    const kept = url
+      .slice(q + 1)
+      .split('&')
+      .filter((p) => p !== '' && !/^phone=/i.test(p));
+    url = kept.length ? `${base}?${kept.join('&')}` : base;
+  }
+  return url;
+}
+
 function VerifyPageContent() {
   const searchParams = useSearchParams();
   const [phone, setPhone] = useState<string>('');
@@ -23,9 +48,7 @@ function VerifyPageContent() {
   const handleConfirm = () => {
     setIsRedirecting(true);
 
-    // Log the raw search string so we can debug exactly what the browser sees
     const rawSearch = window.location.search.substring(1);
-    console.log('[DEBUG] rawSearch:', rawSearch.substring(0, 200));
 
     const destKeyIndex = rawSearch.indexOf('destination=');
     if (destKeyIndex === -1) {
@@ -35,7 +58,6 @@ function VerifyPageContent() {
     }
 
     const rawRedirectUrl = rawSearch.substring(destKeyIndex + 'destination='.length);
-    console.log('[DEBUG] rawRedirectUrl (first 200):', rawRedirectUrl.substring(0, 200));
 
     if (!rawRedirectUrl) {
       setError('Invalid verification link. Destination is missing.');
@@ -43,11 +65,8 @@ function VerifyPageContent() {
       return;
     }
 
-    // Use the raw URL directly - do NOT decode it.
-    // window.location.href handles encoded URLs correctly.
-    // decodeURIComponent was causing double-decoding issues.
-    console.log('[DEBUG] Setting window.location.href to rawRedirectUrl');
-    window.location.href = rawRedirectUrl;
+    // Use the raw (undecoded) URL, normalized by buildRedirectUrl.
+    window.location.href = buildRedirectUrl(rawRedirectUrl);
   };
 
   return (
