@@ -49,19 +49,19 @@ export default function SignupPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59A23] text-white hover:bg-[#E67E15] px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                <Link href="/signup" className="bg-[#0B7395] text-white hover:bg-[#095C77] px-4 py-2 rounded-md text-sm font-medium transition-colors">
                   Get Started
                 </Link>
               </div>
@@ -74,7 +74,7 @@ export default function SignupPage() {
       <section className="bg-[#F5F7FB] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-[#1F2937] mb-4">
+            <h1 className="text-4xl font-extrabold text-[#283B5C] mb-4">
               Get Started with AmOne
             </h1>
             <p className="text-xl text-[#6B7280] max-w-2xl mx-auto">
@@ -94,13 +94,13 @@ export default function SignupPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h2 className="text-3xl font-bold text-[#1F2937] mb-4">Thank You!</h2>
+              <h2 className="text-3xl font-bold text-[#283B5C] mb-4">Thank You!</h2>
               <p className="text-lg text-[#6B7280] mb-8">
                 We've received your request. Our team will contact you within 24 hours to get you started.
               </p>
               <Link
                 href="/"
-                className="inline-block px-6 py-3 bg-[#F59A23] text-white font-semibold rounded-lg hover:bg-[#E67E15] transition-colors"
+                className="inline-block px-6 py-3 bg-[#0B7395] text-white font-semibold rounded-lg hover:bg-[#095C77] transition-colors"
               >
                 Return to Home
               </Link>
@@ -108,7 +108,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-[#1F2937] mb-2">Sign Up for AmOne</h2>
+                <h2 className="text-2xl font-bold text-[#283B5C] mb-2">Sign Up for AmOne</h2>
                 <p className="text-[#6B7280]">
                   Complete the form below to start sending transactional messages with confidence.
                 </p>
@@ -117,7 +117,7 @@ export default function SignupPage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Name Field */}
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-[#1F2937] mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-[#283B5C] mb-2">
                     Full Name *
                   </label>
                   <div className="relative">
@@ -131,7 +131,7 @@ export default function SignupPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#F59A23] focus:border-transparent text-[#1F2937] bg-white"
+                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#0B7395] focus:border-transparent text-[#283B5C] bg-white"
                       placeholder="John Doe"
                     />
                   </div>
@@ -139,7 +139,7 @@ export default function SignupPage() {
 
                 {/* Email Field */}
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-[#1F2937] mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-[#283B5C] mb-2">
                     Business Email *
                   </label>
                   <div className="relative">
@@ -153,7 +153,7 @@ export default function SignupPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#F59A23] focus:border-transparent text-[#1F2937] bg-white"
+                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#0B7395] focus:border-transparent text-[#283B5C] bg-white"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -161,7 +161,7 @@ export default function SignupPage() {
 
                 {/* Company Field */}
                 <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-[#1F2937] mb-2">
+                  <label htmlFor="company" className="block text-sm font-medium text-[#283B5C] mb-2">
                     Company Name *
                   </label>
                   <div className="relative">
@@ -175,7 +175,7 @@ export default function SignupPage() {
                       required
                       value={formData.company}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#F59A23] focus:border-transparent text-[#1F2937] bg-white"
+                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#0B7395] focus:border-transparent text-[#283B5C] bg-white"
                       placeholder="Acme Inc."
                     />
                   </div>
@@ -183,7 +183,7 @@ export default function SignupPage() {
 
                 {/* Phone Field */}
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-[#1F2937] mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-[#283B5C] mb-2">
                     Phone Number (Optional)
                   </label>
                   <div className="relative">
@@ -196,7 +196,7 @@ export default function SignupPage() {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#F59A23] focus:border-transparent text-[#1F2937] bg-white"
+                      className="block w-full pl-10 pr-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#0B7395] focus:border-transparent text-[#283B5C] bg-white"
                       placeholder="(555) 123-4567"
                     />
                   </div>
@@ -204,7 +204,7 @@ export default function SignupPage() {
 
                 {/* Message Field */}
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-[#1F2937] mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-[#283B5C] mb-2">
                     Tell us about your use case (Optional)
                   </label>
                   <textarea
@@ -213,7 +213,7 @@ export default function SignupPage() {
                     rows={4}
                     value={formData.message}
                     onChange={handleChange}
-                    className="block w-full px-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#F59A23] focus:border-transparent text-[#1F2937] bg-white"
+                    className="block w-full px-3 py-3 border border-[#E5E7EB] rounded-lg focus:ring-2 focus:ring-[#0B7395] focus:border-transparent text-[#283B5C] bg-white"
                     placeholder="How do you plan to use AmOne?"
                   />
                 </div>
@@ -221,12 +221,12 @@ export default function SignupPage() {
                 {/* Consent Checkboxes */}
                 <div className="space-y-4">
                   {/* SMS Consent Checkbox */}
-                  <div className="bg-[#1F2937] text-white rounded-lg p-6">
+                  <div className="bg-[#283B5C] text-white rounded-lg p-6">
                     <div className="flex items-start">
                       <input
                         type="checkbox"
                         id="sms-consent"
-                        className="mt-1 h-4 w-4 text-[#F59A23] focus:ring-[#F59A23] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#0B7395] focus:ring-[#0B7395] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
                         By checking this box and submitting this form, you agree to receive account notification text messages from AmOne. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@tryamone.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form. All messages will be handled by AmOne.
@@ -240,15 +240,15 @@ export default function SignupPage() {
                       <input
                         type="checkbox"
                         id="terms-consent"
-                        className="mt-1 h-4 w-4 text-[#F59A23] focus:ring-[#F59A23] border-gray-300 rounded flex-shrink-0"
+                        className="mt-1 h-4 w-4 text-[#0B7395] focus:ring-[#0B7395] border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="terms-consent" className="ml-3 text-sm leading-relaxed text-[#6B7280]">
                         I agree with the{' '}
-                        <Link href="/terms" className="text-[#2F4EB3] hover:underline font-medium">
+                        <Link href="/terms" className="text-[#283B5C] hover:underline font-medium">
                           Terms & Conditions
                         </Link>{' '}
                         and{' '}
-                        <Link href="/privacy" className="text-[#2F4EB3] hover:underline font-medium">
+                        <Link href="/privacy" className="text-[#283B5C] hover:underline font-medium">
                           Privacy Policy
                         </Link>
                         .
@@ -264,7 +264,7 @@ export default function SignupPage() {
                   className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
                     isSubmitting
                       ? 'bg-gray-300 cursor-not-allowed text-gray-500'
-                      : 'bg-[#F59A23] hover:bg-[#E67E15] text-white shadow-lg hover:shadow-xl'
+                      : 'bg-[#0B7395] hover:bg-[#095C77] text-white shadow-lg hover:shadow-xl'
                   }`}
                 >
                   {isSubmitting ? (
@@ -286,7 +286,7 @@ export default function SignupPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1F2937] border-t border-gray-700 text-white py-12 mt-20">
+      <footer className="bg-[#283B5C] border-t border-gray-700 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>

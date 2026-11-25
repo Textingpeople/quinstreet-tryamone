@@ -15,19 +15,19 @@ export default function PrivacyPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#1F2937] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#283B5C] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59A23] text-white hover:bg-[#E67E15] px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                <Link href="/signup" className="bg-[#0B7395] text-white hover:bg-[#095C77] px-4 py-2 rounded-md text-sm font-medium transition-colors">
                   Get Started
                 </Link>
               </div>
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
       {/* Header */}
       <section className="bg-[#F5F7FB] py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold text-[#1F2937] mb-4">Privacy Policy</h1>
+          <h1 className="text-4xl font-extrabold text-[#283B5C] mb-4">Privacy Policy</h1>
           <p className="text-lg text-[#6B7280]">
             Last Updated: December 30, 2025
           </p>
@@ -50,14 +50,14 @@ export default function PrivacyPage() {
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="prose prose-lg max-w-none">
           
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">1. Introduction</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">1. Introduction</h2>
           <p className="text-[#6B7280] mb-6">
             AmOne ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our SMS verification service and website.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">2. Information We Collect</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">2. Information We Collect</h2>
           
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">2.1 Information You Provide</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">2.1 Information You Provide</h3>
           <p className="text-[#6B7280] mb-4">When you sign up for our service, we may collect:</p>
           <ul className="list-disc pl-6 text-[#6B7280] mb-6 space-y-2">
             <li>Name and contact information (email, phone number)</li>
@@ -66,7 +66,7 @@ export default function PrivacyPage() {
             <li>Payment information (processed by third-party payment processors)</li>
           </ul>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">2.2 Information Collected Automatically</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">2.2 Information Collected Automatically</h3>
           <p className="text-[#6B7280] mb-4">When you use our verification service, we automatically collect:</p>
           <ul className="list-disc pl-6 text-[#6B7280] mb-6 space-y-2">
             <li>Device information (browser type, operating system)</li>
@@ -75,17 +75,17 @@ export default function PrivacyPage() {
             <li>Verification timestamps and success/failure rates</li>
           </ul>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">2.3 Phone Number Handling</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">2.3 Phone Number Handling</h3>
           <p className="text-[#6B7280] mb-6">
             <strong>Important:</strong> We do NOT store phone numbers used in the verification process. Phone numbers are only displayed (masked) during the verification flow and are not logged or retained in our systems. All tracking parameters are passed through without storing personal identifiable information.
           </p>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">2.4 Mobile Information Sharing</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">2.4 Mobile Information Sharing</h3>
           <p className="text-[#6B7280] mb-6">
             <strong>No mobile information will be shared or sold to third parties for marketing purposes.</strong> We are committed to protecting your mobile information and will only use it for the purposes outlined in this Privacy Policy, such as providing our verification service and communicating with you about your account.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">3. How We Use Your Information</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">3. How We Use Your Information</h2>
           <p className="text-[#6B7280] mb-4">We use the information we collect to:</p>
           <ul className="list-disc pl-6 text-[#6B7280] mb-6 space-y-2">
             <li>Provide and maintain our verification service</li>
@@ -97,30 +97,30 @@ export default function PrivacyPage() {
             <li>Comply with legal obligations</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">4. Information Sharing and Disclosure</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">4. Information Sharing and Disclosure</h2>
           <p className="text-[#6B7280] mb-4">We may share your information with:</p>
           
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">4.1 Service Providers</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">4.1 Service Providers</h3>
           <p className="text-[#6B7280] mb-6">
             Third-party vendors who perform services on our behalf, such as hosting, analytics, payment processing, and customer support. These providers are contractually obligated to protect your information.
           </p>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">4.2 Business Transfers</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">4.2 Business Transfers</h3>
           <p className="text-[#6B7280] mb-6">
             In connection with any merger, sale of company assets, financing, or acquisition of all or a portion of our business.
           </p>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">4.3 Legal Requirements</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">4.3 Legal Requirements</h3>
           <p className="text-[#6B7280] mb-6">
             When required by law, court order, or government regulation, or when we believe disclosure is necessary to protect our rights, your safety, or the safety of others.
           </p>
 
-          <h3 className="text-xl font-semibold text-[#1F2937] mt-6 mb-3">4.4 With Your Consent</h3>
+          <h3 className="text-xl font-semibold text-[#283B5C] mt-6 mb-3">4.4 With Your Consent</h3>
           <p className="text-[#6B7280] mb-6">
             We may share your information for any other purpose with your explicit consent.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">5. Data Security</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">5. Data Security</h2>
           <p className="text-[#6B7280] mb-6">
             We implement appropriate technical and organizational security measures to protect your information against unauthorized access, alteration, disclosure, or destruction. These measures include:
           </p>
@@ -134,12 +134,12 @@ export default function PrivacyPage() {
             However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee absolute security.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">6. Data Retention</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">6. Data Retention</h2>
           <p className="text-[#6B7280] mb-6">
             We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. Account information is retained while your account is active and for a reasonable period thereafter for legal and business purposes.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">7. Your Rights and Choices</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">7. Your Rights and Choices</h2>
           <p className="text-[#6B7280] mb-4">Depending on your location, you may have the following rights:</p>
           <ul className="list-disc pl-6 text-[#6B7280] mb-6 space-y-2">
             <li><strong>Access:</strong> Request access to the personal information we hold about you</li>
@@ -150,54 +150,54 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-[#6B7280] mb-6">
-            To exercise these rights, please contact us at <a href="mailto:privacy@tryamone.com" className="text-[#2F4EB3] hover:underline">privacy@tryamone.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:privacy@tryamone.com" className="text-[#283B5C] hover:underline">privacy@tryamone.com</a>.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
           <p className="text-[#6B7280] mb-6">
             We use cookies and similar tracking technologies to track activity on our service and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our service.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">9. Third-Party Links</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">9. Third-Party Links</h2>
           <p className="text-[#6B7280] mb-6">
             Our service may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to review the privacy policies of any third-party sites you visit.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">10. Children's Privacy</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">10. Children's Privacy</h2>
           <p className="text-[#6B7280] mb-6">
             Our service is not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">11. International Data Transfers</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">11. International Data Transfers</h2>
           <p className="text-[#6B7280] mb-6">
             Your information may be transferred to and processed in countries other than your country of residence. These countries may have data protection laws that differ from those in your country. We take appropriate safeguards to ensure your information remains protected in accordance with this Privacy Policy.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">12. California Privacy Rights</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">12. California Privacy Rights</h2>
           <p className="text-[#6B7280] mb-6">
             If you are a California resident, you have specific rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we collect, the right to delete your information, and the right to opt-out of the sale of your personal information. We do not sell personal information.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">13. Changes to This Privacy Policy</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">13. Changes to This Privacy Policy</h2>
           <p className="text-[#6B7280] mb-6">
             We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.
           </p>
 
-          <h2 className="text-2xl font-bold text-[#1F2937] mt-8 mb-4">14. Contact Us</h2>
+          <h2 className="text-2xl font-bold text-[#283B5C] mt-8 mb-4">14. Contact Us</h2>
           <p className="text-[#6B7280] mb-4">
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-[#F5F7FB] border border-[#E5E7EB] rounded-lg p-6 mb-8">
-            <p className="text-[#6B7280] mb-2"><strong>Email:</strong> <a href="mailto:privacy@tryamone.com" className="text-[#2F4EB3] hover:underline">privacy@tryamone.com</a></p>
-            <p className="text-[#6B7280] mb-2"><strong>Support:</strong> <a href="mailto:support@tryamone.com" className="text-[#2F4EB3] hover:underline">support@tryamone.com</a></p>
-            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#2F4EB3] hover:underline">https://tryamone.com</a></p>
+            <p className="text-[#6B7280] mb-2"><strong>Email:</strong> <a href="mailto:privacy@tryamone.com" className="text-[#283B5C] hover:underline">privacy@tryamone.com</a></p>
+            <p className="text-[#6B7280] mb-2"><strong>Support:</strong> <a href="mailto:support@tryamone.com" className="text-[#283B5C] hover:underline">support@tryamone.com</a></p>
+            <p className="text-[#6B7280]"><strong>Website:</strong> <a href="/" className="text-[#283B5C] hover:underline">https://tryamone.com</a></p>
           </div>
 
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1F2937] border-t border-gray-700 text-white py-12 mt-20">
+      <footer className="bg-[#283B5C] border-t border-gray-700 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>

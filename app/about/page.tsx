@@ -16,19 +16,19 @@ export default function AboutPage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#1F2937] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#283B5C] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59A23] text-white hover:bg-[#E67E15] px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                <Link href="/signup" className="bg-[#0B7395] text-white hover:bg-[#095C77] px-4 py-2 rounded-md text-sm font-medium transition-colors">
                   Get Started
                 </Link>
               </div>
@@ -41,7 +41,7 @@ export default function AboutPage() {
       <section className="bg-[#F5F7FB] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-extrabold text-[#1F2937] mb-6">
+            <h1 className="text-5xl font-extrabold text-[#283B5C] mb-6">
               About AmOne
             </h1>
             <p className="text-xl text-[#6B7280] max-w-3xl mx-auto">
@@ -55,7 +55,7 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-[#1F2937] mb-6">Our Mission</h2>
+            <h2 className="text-4xl font-bold text-[#283B5C] mb-6">Our Mission</h2>
             <p className="text-lg text-[#6B7280] mb-4">
               AmOne was built to solve a critical challenge: businesses need a reliable, compliant way to send transactional SMS messages that actually reach their customers.
             </p>
@@ -70,10 +70,10 @@ export default function AboutPage() {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Target className="w-8 h-8 text-[#F59A23]" />
+                  <Target className="w-8 h-8 text-[#0B7395]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Focused on Deliverability</h3>
+                  <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Focused on Deliverability</h3>
                   <p className="text-[#6B7280]">
                     Built from the ground up to maximize message delivery rates with carrier-compliant infrastructure.
                   </p>
@@ -81,10 +81,10 @@ export default function AboutPage() {
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Shield className="w-8 h-8 text-[#F59A23]" />
+                  <Shield className="w-8 h-8 text-[#0B7395]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Security First</h3>
+                  <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Security First</h3>
                   <p className="text-[#6B7280]">
                     Your customers' data is protected with enterprise-grade security measures and strict privacy controls.
                   </p>
@@ -92,10 +92,10 @@ export default function AboutPage() {
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <Zap className="w-8 h-8 text-[#F59A23]" />
+                  <Zap className="w-8 h-8 text-[#0B7395]" />
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Lightning Fast</h3>
+                  <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Lightning Fast</h3>
                   <p className="text-[#6B7280]">
                     Transactional messages delivered in seconds with optimized routing and sub-2-second page loads.
                   </p>
@@ -110,38 +110,38 @@ export default function AboutPage() {
       <section className="bg-[#F5F7FB] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1F2937] mb-4">What We Support</h2>
+            <h2 className="text-4xl font-bold text-[#283B5C] mb-4">What We Support</h2>
             <p className="text-xl text-[#6B7280]">
               Three core transactional messaging use cases, built for reliability
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
               <div className="flex justify-center mb-4">
-                <CheckCircle className="w-12 h-12 text-[#F59A23]" />
+                <CheckCircle className="w-12 h-12 text-[#0B7395]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">User Verification</h3>
+              <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">User Verification</h3>
               <p className="text-[#6B7280] text-center">
                 Confirm customer identity with SMS-based verification flows. Reduce fraud, improve security, and build customer trust with every interaction.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
               <div className="flex justify-center mb-4">
-                <Bell className="w-12 h-12 text-[#F59A23]" />
+                <Bell className="w-12 h-12 text-[#0B7395]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">Account Notifications</h3>
+              <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">Account Notifications</h3>
               <p className="text-[#6B7280] text-center">
                 Keep customers informed with timely account updates — logins, password resets, billing confirmations, document links, and more.
               </p>
             </div>
 
-            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+            <div className="bg-white rounded-xl p-8 shadow-sm border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
               <div className="flex justify-center mb-4">
-                <ShieldAlert className="w-12 h-12 text-[#F59A23]" />
+                <ShieldAlert className="w-12 h-12 text-[#0B7395]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">User Alerts</h3>
+              <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">User Alerts</h3>
               <p className="text-[#6B7280] text-center">
                 Deliver time-sensitive alerts directly to customers' phones — order updates, appointment reminders, and critical system notices.
               </p>
@@ -153,7 +153,7 @@ export default function AboutPage() {
       {/* Why Choose Us Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1F2937] mb-4">Why Businesses Choose Us</h2>
+          <h2 className="text-4xl font-bold text-[#283B5C] mb-4">Why Businesses Choose Us</h2>
           <p className="text-xl text-[#6B7280]">
             Trusted by companies that value compliance, reliability, and results
           </p>
@@ -162,9 +162,9 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="text-center">
             <div className="bg-[#F5F7FB] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB]">
-              <Shield className="w-8 h-8 text-[#F59A23]" />
+              <Shield className="w-8 h-8 text-[#0B7395]" />
             </div>
-            <h3 className="text-lg font-semibold text-[#1F2937] mb-2">10DLC Compliant</h3>
+            <h3 className="text-lg font-semibold text-[#283B5C] mb-2">10DLC Compliant</h3>
             <p className="text-[#6B7280]">
               Fully registered and compliant with carrier 10DLC requirements for maximum deliverability.
             </p>
@@ -172,9 +172,9 @@ export default function AboutPage() {
 
           <div className="text-center">
             <div className="bg-[#F5F7FB] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB]">
-              <Users className="w-8 h-8 text-[#F59A23]" />
+              <Users className="w-8 h-8 text-[#0B7395]" />
             </div>
-            <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Multi-Brand Support</h3>
+            <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Multi-Brand Support</h3>
             <p className="text-[#6B7280]">
               Support multiple brands with customizable sender identities and white-label options.
             </p>
@@ -182,9 +182,9 @@ export default function AboutPage() {
 
           <div className="text-center">
             <div className="bg-[#F5F7FB] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB]">
-              <Zap className="w-8 h-8 text-[#F59A23]" />
+              <Zap className="w-8 h-8 text-[#0B7395]" />
             </div>
-            <h3 className="text-lg font-semibold text-[#1F2937] mb-2">High Performance</h3>
+            <h3 className="text-lg font-semibold text-[#283B5C] mb-2">High Performance</h3>
             <p className="text-[#6B7280]">
               Global infrastructure ensures fast delivery and high uptime for mission-critical messages.
             </p>
@@ -192,9 +192,9 @@ export default function AboutPage() {
 
           <div className="text-center">
             <div className="bg-[#F5F7FB] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB]">
-              <Target className="w-8 h-8 text-[#F59A23]" />
+              <Target className="w-8 h-8 text-[#0B7395]" />
             </div>
-            <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Easy Integration</h3>
+            <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Easy Integration</h3>
             <p className="text-[#6B7280]">
               Simple URL-based integration with comprehensive documentation to get you up and running fast.
             </p>
@@ -203,7 +203,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#1F2937] py-20">
+      <section className="bg-[#283B5C] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Get Started?
@@ -213,7 +213,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/signup"
-            className="inline-block px-8 py-4 bg-[#F59A23] text-white text-lg font-semibold rounded-lg hover:bg-[#E67E15] transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[#0B7395] text-white text-lg font-semibold rounded-lg hover:bg-[#095C77] transition-colors shadow-lg"
           >
             Get Started Today
           </Link>
@@ -221,7 +221,7 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1F2937] border-t border-gray-700 text-white py-12">
+      <footer className="bg-[#283B5C] border-t border-gray-700 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>

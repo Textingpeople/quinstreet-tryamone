@@ -61,10 +61,10 @@ function VerifyPageContent() {
         {/* Verification Content */}
         <div className="text-center mb-8">
           <div className="w-20 h-20 bg-[#F5F7FB] rounded-full flex items-center justify-center mx-auto mb-6 border border-[#E5E7EB]">
-            <CheckCircle className="w-12 h-12 text-[#F59A23]" />
+            <CheckCircle className="w-12 h-12 text-[#0B7395]" />
           </div>
           
-          <h2 className="text-2xl font-bold text-[#1F2937] mb-4">
+          <h2 className="text-2xl font-bold text-[#283B5C] mb-4">
             Verify Your Number
           </h2>
           
@@ -75,7 +75,7 @@ function VerifyPageContent() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter phone number"
-              className="w-full bg-[#F5F7FB] rounded-lg p-6 text-3xl font-bold text-[#1F2937] tracking-wider text-center border-2 border-[#E5E7EB] focus:border-[#F59A23] focus:outline-none transition-colors"
+              className="w-full bg-[#F5F7FB] rounded-lg p-6 text-3xl font-bold text-[#283B5C] tracking-wider text-center border-2 border-[#E5E7EB] focus:border-[#0B7395] focus:outline-none transition-colors"
             />
           </div>
 
@@ -90,7 +90,7 @@ function VerifyPageContent() {
             className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
               isRedirecting
                 ? 'bg-gray-300 cursor-not-allowed text-gray-500'
-                : 'bg-[#F59A23] hover:bg-[#E67E15] text-white shadow-lg hover:shadow-xl'
+                : 'bg-[#0B7395] hover:bg-[#095C77] text-white shadow-lg hover:shadow-xl'
             }`}
           >
             {isRedirecting ? (
@@ -123,7 +123,7 @@ export default function VerifyPage() {
     <Suspense fallback={
       <div className="min-h-screen bg-[#F5F7FB] flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#F59A23] mx-auto"></div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#0B7395] mx-auto"></div>
           <p className="mt-4 text-[#6B7280]">Loading...</p>
         </div>
       </div>

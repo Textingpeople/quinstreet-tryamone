@@ -16,19 +16,19 @@ export default function HomePage() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#1F2937] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#283B5C] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#6B7280] hover:text-[#F59A23] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#6B7280] hover:text-[#0B7395] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/signup" className="bg-[#F59A23] text-white hover:bg-[#E67E15] px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                <Link href="/signup" className="bg-[#0B7395] text-white hover:bg-[#095C77] px-4 py-2 rounded-md text-sm font-medium transition-colors">
                   Get Started
                 </Link>
               </div>
@@ -41,9 +41,9 @@ export default function HomePage() {
       <section className="bg-[#F5F7FB] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-extrabold text-[#1F2937] sm:text-6xl md:text-7xl">
+            <h1 className="text-5xl font-extrabold text-[#283B5C] sm:text-6xl md:text-7xl">
               Transactional Messaging
-              <span className="block text-[#F59A23]">That Delivers</span>
+              <span className="block text-[#0B7395]">That Delivers</span>
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-xl text-[#6B7280]">
               Reach your customers at the right moment with reliable SMS for user verification, account notifications, and real-time alerts — all in one platform.
@@ -51,13 +51,13 @@ export default function HomePage() {
             <div className="mt-10 flex justify-center gap-4">
               <Link
                 href="/signup"
-                className="px-8 py-4 bg-[#F59A23] text-white text-lg font-semibold rounded-lg hover:bg-[#E67E15] transition-colors shadow-lg"
+                className="px-8 py-4 bg-[#0B7395] text-white text-lg font-semibold rounded-lg hover:bg-[#095C77] transition-colors shadow-lg"
               >
                 Get Started Free
               </Link>
               <Link
                 href="/about"
-                className="px-8 py-4 bg-white text-[#2F4EB3] text-lg font-semibold rounded-lg hover:bg-[#F5F7FB] transition-colors border-2 border-[#2F4EB3]"
+                className="px-8 py-4 bg-white text-[#283B5C] text-lg font-semibold rounded-lg hover:bg-[#F5F7FB] transition-colors border-2 border-[#283B5C]"
               >
                 Learn More
               </Link>
@@ -69,7 +69,7 @@ export default function HomePage() {
       {/* Core Use Cases Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1F2937]">Three Pillars of Transactional Messaging</h2>
+          <h2 className="text-4xl font-bold text-[#283B5C]">Three Pillars of Transactional Messaging</h2>
           <p className="mt-4 text-xl text-[#6B7280]">
             Everything your business needs to communicate with customers at critical moments
           </p>
@@ -77,11 +77,11 @@ export default function HomePage() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Use Case 1 - User Verification */}
-          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
             <div className="flex justify-center mb-4">
-              <CheckCircle className="w-12 h-12 text-[#F59A23]" />
+              <CheckCircle className="w-12 h-12 text-[#0B7395]" />
             </div>
-            <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">
               User Verification
             </h3>
             <p className="text-[#6B7280] text-center">
@@ -90,11 +90,11 @@ export default function HomePage() {
           </div>
 
           {/* Use Case 2 - Account Notifications */}
-          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
             <div className="flex justify-center mb-4">
-              <Bell className="w-12 h-12 text-[#F59A23]" />
+              <Bell className="w-12 h-12 text-[#0B7395]" />
             </div>
-            <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">
               Account Notifications
             </h3>
             <p className="text-[#6B7280] text-center">
@@ -103,11 +103,11 @@ export default function HomePage() {
           </div>
 
           {/* Use Case 3 - User Alerts */}
-          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#F59A23]">
+          <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-[#E5E7EB] border-t-4 border-t-[#0B7395]">
             <div className="flex justify-center mb-4">
-              <ShieldAlert className="w-12 h-12 text-[#F59A23]" />
+              <ShieldAlert className="w-12 h-12 text-[#0B7395]" />
             </div>
-            <h3 className="text-xl font-semibold text-[#1F2937] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#283B5C] text-center mb-3">
               User Alerts
             </h3>
             <p className="text-[#6B7280] text-center">
@@ -121,7 +121,7 @@ export default function HomePage() {
       <section className="bg-[#F5F7FB] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1F2937]">Why Choose AmOne?</h2>
+            <h2 className="text-4xl font-bold text-[#283B5C]">Why Choose AmOne?</h2>
             <p className="mt-4 text-xl text-[#6B7280]">
               Built for businesses that need reliable, compliant transactional messaging
             </p>
@@ -130,9 +130,9 @@ export default function HomePage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB] shadow-sm">
-                <Zap className="w-8 h-8 text-[#F59A23]" />
+                <Zap className="w-8 h-8 text-[#0B7395]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Lightning Fast Delivery</h3>
+              <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Lightning Fast Delivery</h3>
               <p className="text-[#6B7280]">
                 Messages delivered in seconds, not minutes. Optimized routing ensures your transactional SMS reaches customers when it matters most.
               </p>
@@ -140,9 +140,9 @@ export default function HomePage() {
 
             <div className="text-center p-6">
               <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB] shadow-sm">
-                <Lock className="w-8 h-8 text-[#F59A23]" />
+                <Lock className="w-8 h-8 text-[#0B7395]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Carrier Compliant</h3>
+              <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Carrier Compliant</h3>
               <p className="text-[#6B7280]">
                 Fully compliant with 10DLC regulations and carrier requirements. We handle the compliance so you can focus on your business.
               </p>
@@ -150,9 +150,9 @@ export default function HomePage() {
 
             <div className="text-center p-6">
               <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 border border-[#E5E7EB] shadow-sm">
-                <Users className="w-8 h-8 text-[#F59A23]" />
+                <Users className="w-8 h-8 text-[#0B7395]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1F2937] mb-2">Multi-Brand Support</h3>
+              <h3 className="text-lg font-semibold text-[#283B5C] mb-2">Multi-Brand Support</h3>
               <p className="text-[#6B7280]">
                 Manage messaging for multiple brands from a single platform with customizable sender identities and white-label options.
               </p>
@@ -164,7 +164,7 @@ export default function HomePage() {
       {/* Solutions Detail Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1F2937]">How It Works</h2>
+          <h2 className="text-4xl font-bold text-[#283B5C]">How It Works</h2>
           <p className="mt-4 text-xl text-[#6B7280]">
             Simple, powerful transactional messaging for every customer touchpoint
           </p>
@@ -175,9 +175,9 @@ export default function HomePage() {
           <div className="space-y-12">
             {/* Solution 1 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 bg-[#F59A23] text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
+              <div className="flex-shrink-0 w-10 h-10 bg-[#0B7395] text-white rounded-full flex items-center justify-center font-bold text-lg">1</div>
               <div>
-                <h3 className="text-2xl font-bold text-[#1F2937] mb-3">Identity Verification</h3>
+                <h3 className="text-2xl font-bold text-[#283B5C] mb-3">Identity Verification</h3>
                 <p className="text-lg text-[#6B7280] leading-relaxed">
                   Send a verification request to confirm your users are who they say they are. Our carrier-compliant flow ensures high deliverability and a smooth customer experience.
                 </p>
@@ -186,9 +186,9 @@ export default function HomePage() {
 
             {/* Solution 2 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 bg-[#F59A23] text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
+              <div className="flex-shrink-0 w-10 h-10 bg-[#0B7395] text-white rounded-full flex items-center justify-center font-bold text-lg">2</div>
               <div>
-                <h3 className="text-2xl font-bold text-[#1F2937] mb-3">Account Notifications</h3>
+                <h3 className="text-2xl font-bold text-[#283B5C] mb-3">Account Notifications</h3>
                 <p className="text-lg text-[#6B7280] leading-relaxed">
                   Automatically notify customers of important account events — logins, password resets, billing updates, and document links for e-signatures — with higher open rates than email.
                 </p>
@@ -197,9 +197,9 @@ export default function HomePage() {
 
             {/* Solution 3 */}
             <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 bg-[#F59A23] text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
+              <div className="flex-shrink-0 w-10 h-10 bg-[#0B7395] text-white rounded-full flex items-center justify-center font-bold text-lg">3</div>
               <div>
-                <h3 className="text-2xl font-bold text-[#1F2937] mb-3">Real-Time Alerts</h3>
+                <h3 className="text-2xl font-bold text-[#283B5C] mb-3">Real-Time Alerts</h3>
                 <p className="text-lg text-[#6B7280] leading-relaxed">
                   Re-engage customers who've dropped off with automated follow-up messages. Deliver time-sensitive alerts for orders, appointments, and critical updates that demand immediate attention.
                 </p>
@@ -221,7 +221,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#1F2937] py-20">
+      <section className="bg-[#283B5C] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Get Started?
@@ -231,7 +231,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/signup"
-            className="inline-block px-8 py-4 bg-[#F59A23] text-white text-lg font-semibold rounded-lg hover:bg-[#E67E15] transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[#0B7395] text-white text-lg font-semibold rounded-lg hover:bg-[#095C77] transition-colors shadow-lg"
           >
             Get Started Today
           </Link>
@@ -239,7 +239,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1F2937] border-t border-gray-700 text-white py-12">
+      <footer className="bg-[#283B5C] border-t border-gray-700 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-5 gap-8">
             <div>
